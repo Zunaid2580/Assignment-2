@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+}
+header{ }
+.announcement{
+	background-color: gray;
+	text-align: center;}
+.announcement p{
+		margin:0;
+		color: whitesmoke;
+		text-transform: capitalize;
+		padding: 10px;
+		letter-spacing: 1px;
+		font-size: 18px;}
+.navigation{
+	 display: flex;
+	 justify-content: space-between;
+	 max-width: 1310px;
+	 margin-right: auto;
+	 margin-left: auto;
+ }
+.logo img{
+	width: 70px;
+	padding-top: 8px;
+}
+nav{ }
+nav ul{
+			display:flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+	}
+nav ul li{  }
+
+nav ul li a{
+		color: #a46021;
+		text-decoration: none;
+		font-size: 20px;
+		display: block;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-top: 10px;
+		}
